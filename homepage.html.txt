@@ -2,16 +2,41 @@
 <html>
 <head>
 	<metal charset = "utf-8"></meta>
-	<title>Homepage</title>
+	<title>WE ARE ONE</title>
 </head>
+<style>
+	body{
+		background-color: #CCDDFF;
+	}
+
+	.larger-image{
+	 width: 500
+</style>
 <body>
-	<h3>寶貝</h3>
+	<h1 style="color: #5555FF;">ܣ班的追星日程ܣ</h1>
+	<h2 style="color: #9F88FF;">2015.12.05喜歡上EXO</h2>
+	<h3>某天意外看到<<我的鄰居是EXO>>這部劇時，就深深地被一群男孩吸引到了！(但還沒到喜歡:))</h3>
+	<img src="neighbor.jpg"></img>
+	<h3>之後漸漸地對他們產生興趣，就找了他們的團體綜藝節目<EXO'Showtime>來看，沒想到一發不可收拾ಥ_ಥ</h3>
+	<img src="showtime.jpg"></img>
+	<h4><a href = "https://www.youtube.com/watch?v=62MshKK_Wac">點我看第一集ฅ'ω'ฅ</a></h4>
+	<h3>看完就陷進下去啦，只能說他們真的有讓人喜歡的魔力♥</h3>
+	<h2 style="color: #9F88FF;">2016.11.26第一次見EXO--參加EXO三巡</h2>
+	<h3>為了看他們我第一次搶票，原本超崩潰因為家裡網路太慢搶不到，但還好有神隊友幫我搶到搖滾區第一排，讓我順利去小巨蛋看他們啦ﾟ･*:.｡. .｡.:*･</h3>
+	<img src="three.png"></img>
+	<h2 style="color: #9F88FF;">2018.02.10第二次見EXO--參加EXO四巡</h2>
+	<h3>第二次搶票在學測前三個禮拜，這個時間超尷尬，但為了他們這次我一早就去蹲網咖了，感謝老天讓我順利搶到，2/10開開心心看他們啦ﾟ･*:.｡. .｡.:*･</h3>
+	<img src="four.png"></img>
+	<h2 style="color: #9F88FF;">接著單獨介紹我最愛的成員->張藝興</h2>
 	<img src="baby.jpg"></img>
-	<h3>My love</h3>
+	<h3>他是演員也是歌手!! 以下推薦他的三首歌，三部劇</h3>
 	<ul>
-		<li>song</li>
-		<li><a href ="http://exo.smtown.com/">EXO</a></li>
-		<li><a href = "http://got7.jype.com/">got7</a></li>
+		<li><a href = "https://www.youtube.com/watch?v=DlUsnZjfYZA">夢不落與林 Namanana</a></li>
+		<li><a href = "https://www.youtube.com/watch?v=t6Bi_0q_17Y">聖誕又至 Goodbay Christmas</a></li>
+		<li><a href = "https://www.youtube.com/watch?v=kthhAjR4CBs">Sheep feat.Alan walker</a></li>
+		<li><a href = "https://maplestage.com/show/%E9%BB%83%E9%87%91%E7%9E%B3">黃金瞳</a></li>
+		<li><a href = "https://maplestage.com/show/%E8%80%81%E4%B9%9D%E9%96%80">老九門</a></li>
+		<li><a href = "https://maplestage.com/show/%E6%B1%82%E5%A9%9A%E5%A4%A7%E4%BD%9C%E6%88%B0%E9%99%B8%E5%8A%87">求婚大作戰</a></li>
 	</ul>
 	
 </body>
