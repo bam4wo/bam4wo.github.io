@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<metal charset = "utf-8"></meta>
+	<title>Homepage</title>
+</head>
+<body>
+	<h3>寶貝</h3>
+	<img src="baby.jpg"></img>
+	<h3>My love</h3>
+	<ul>
+		<li>song</li>
+		<li><a href ="http://exo.smtown.com/">EXO</a></li>
+		<li><a href = "http://got7.jype.com/">got7</a></li>
+	</ul>
+	
+</body>
+</html>
