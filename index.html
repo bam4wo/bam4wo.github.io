@@ -5,9 +5,23 @@
 	<title>WE ARE ONE</title>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+<script>
+	document.addEventListener('DOMContentLoaded',function(){
+	document.getElementById('sendMessage').onclick=function(){
+	}
+	      var userName=document.getElementById('name').value;
+	
+	)};
+	
+	$(document).ready(function() {
+	$("body").addClass("animated fadeOut");
+	)}
+</script>
 <style>
 	body{
 		background-color: #CCDDFF;
+		text-align: center;
+		font-family: "Helvetica", sans-serif;
 	}
 
 	h2{
@@ -48,7 +62,32 @@
 		margin-right:auto;
 	}
 	
+	.well {
+		width:350px; 
+		padding:10px; 
+		margin:10px; 
+		background-color:#E8CCFF;
+		display:inline-block;
+		vertical-align:top;
+		text-align:center;
+		height:30px;
+		line-height:30px;
+	}
+	
 	.box{
+		width:250px; 
+		padding:10px; 
+		margin:10px; 
+		background-color:#B088FF;
+		display:inline-block;
+		vertical-align:top;
+		text-align:center;
+		height:30px;
+		line-height:30px;
+		border-radius: 10px
+	}
+	
+	.aaa{
 		width:280px; 
 		padding:10px; 
 		margin:10px; 
@@ -61,13 +100,47 @@
 		border-radius: 30px
 	}
 	
-	.bing {
+	.bing{
 		border-color: #FFFF00;
 		border-width: 10px;
 		border-style: solid;
 		border-radius: 20px;
 		display:block; margin:auto;
 	}
+	
+	.btn-group button(
+		padding:10px 16px;
+		width:100px;
+		border:1px solid #ddd;
+		border-radius:8px;
+		text-align:center;
+	}
+	
+	.button {
+		color: white;
+		background:none;
+		background-color: #B088FF;
+		border-radius: 5px;
+		border: 1px solid #B088FF;
+		padding: 5px 10px 8px 10px; 
+	}
+	.button:hover {
+		background-color: #0F5897;
+		border: 1px solid #0F5897;
+	}
+	
+	.btn{
+		border:none;
+		color: white;
+		background-color: #B088FF;
+		border-radius: 5px;
+		padding: 5px 10px 8px 10px; 
+	}
+	
+	
+	
+	
+	
 	
 </style>
 <body style="margin:0px;">
@@ -91,7 +164,7 @@
 	<h3 class="head2">也是個演員★</h3>
 	<img src="movies.jpg" style="display:block; margin:auto;  border-radius: 30px;" ></img>
 	<div class="content">
-		<div class="box">
+		<div class="aaa">
 			<h3 class="head2">推薦他的三首歌~~</h3>
 			<ul class="wrap">
 				<li><a href = "https://www.youtube.com/watch?v=DlUsnZjfYZA">夢不落與林 Namanana</a></li>
@@ -99,7 +172,7 @@
 				<li><a href = "https://www.youtube.com/watch?v=kthhAjR4CBs">Sheep feat.Alan walker</a></li>
 			</ul>
 		</div>
-		<div class="box">
+		<div class="aaa">
 			<h3 class="head2">推薦他的三部劇~~</h3>
 			<ul class="wrap">
 				<li><a href = "https://maplestage.com/show/%E9%BB%83%E9%87%91%E7%9E%B3">黃金瞳</a></li>
@@ -107,7 +180,7 @@
 				<li><a href = "https://maplestage.com/show/%E6%B1%82%E5%A9%9A%E5%A4%A7%E4%BD%9C%E6%88%B0%E9%99%B8%E5%8A%87">求婚大作戰</a></li>
 			</ul>
 		</div>
-		<div class="box">
+		<div class="aaa">
 			<h3 class="head2">推薦他的三部電影~~</h3>
 			<ul class="wrap">
 				<li><a href = "https://www.youtube.com/watch?v=16dulcli5Ko">從天而降</a></li>
@@ -121,5 +194,22 @@
 	<h2 class="head2" style="color: #9F88FF;">2019追星目標</h2>
 	<h3 class="head2">希望今年EXO五巡能快點開始，我能搶到票，因為這可能是大家當兵前最後合體了╯△╰</h3>
 	<img class="bing" src="t.png" ></img>
+	<p class="message box">
+		偷偷告訴我環節~讓我知道你的看法
+	</p>
+	<p>
+		<label for="name">感想:
+			<input type="text" id="name"/>
+		</label>
+		<button id="sendMessage">
+			送出
+		</button>
+	</p>
+	<div class="well">
+        <button class="btn target" >很讚哦</button>
+        <button class="btn target" >偶喜翻上EXO了</button>
+        <button class="btn target" >才不喜翻他們呢</button>
+      </div>
+	
 </body>
 </html>
