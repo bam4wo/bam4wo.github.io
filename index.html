@@ -3,30 +3,34 @@
 <head>
 	<metal charset = "utf-8"></meta>
 	<title>WE ARE ONE</title>
-	<script src="/jquery/jquery-1.11.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
-	$(document).ready(function(){
-		$("#hide").click(function(){
-			$("p").hide();
-	});
-	$("#show").click(function(){
-		$("p").show();
+		
+		$(document).ready(function(){
+			$("button").click(function(){
+				$("#div1").fadeIn("slow");
+				$("#div2").fadeIn("slow");
+				$("#div3").fadeIn("slow");
+				$("#div4").fadeIn("slow");
+				$("#div5").fadeIn("slow");
+			});
+			<!-- $("button").addClass("animated bounce"); -->
+			<!-- $(".well").addClass("animated shake"); -->
+			<!-- $("#target1").css("color", "blue"); -->
 		});
-	});
+	</script>
+	<script>	
+		document.addEventListener('DOMContentLoaded',function(){
+		document.getElementById('sendMessage').onclick=function(){
+		}
+	      var userName=document.getElementById('name').value;
+	
+		)};
+	
 	</script>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
-<head2>
-	<script src="/jquery/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript">
-		document.addEventListener('DOMContentLoaded',function(){
-		document.getElementById('sendMessage').onclick=function(){
-	}
-	      var userName=document.getElementById('name').value;
-	
-	)};
-</script>
-</head2>
+
 <style>
 	body{
 		background-color: #CCDDFF;
@@ -210,14 +214,26 @@
 		</button>
 	</p>
 	<div class="well">
-        <button class="btn target" >很讚哦</button>
-        <button class="btn target" >偶喜翻上EXO了</button>
-        <button class="btn target" >才不喜翻他們呢</button>
+        <button class="btn target" id="target1">很讚哦</button>
+        <button class="btn target" id="target2">偶喜翻上EXO了</button>
+        <button class="btn target" id="target3">才不喜翻他們呢</button>
       </div>
-	<p id="p1">不管怎樣，我會一直支持EXO的♥</p>
+	<!-- <p id="p1">不管怎樣，我會一直支持EXO的♥</p>
 	<button id="hide" type="button">隱藏</button>
-	<button id="show" type="button">顯示</button>
+	<button id="show" type="button">顯示</button> -->
 	
-
+	<p>想看更多EXO嗎</p>
+		<button>點一下看更多照片</button>
+		<br><br>
+		<img src="nine.png" id="div1" style="display:none; margin:auto;" ></img>
+		<br>
+		<img src="onee.png" id="div2" style="display:none; margin:auto;" ></img>
+		<br>
+		<img src="taiwan.png" id="div3" style="display:none; margin:auto;" ></img>
+		<br>
+		<img src="CB.png" id="div4" style="display:none; margin:auto;" ></img>
+		<br>
+		<img src="DB.png" id="div5" style="display:none; margin:auto;" ></img>
+		<br>
 </body>
 </html>
