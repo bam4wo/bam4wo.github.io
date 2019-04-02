@@ -3,20 +3,30 @@
 <head>
 	<metal charset = "utf-8"></meta>
 	<title>WE ARE ONE</title>
+	<script src="/jquery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$("#hide").click(function(){
+			$("p").hide();
+	});
+	$("#show").click(function(){
+		$("p").show();
+		});
+	});
+	</script>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
-<script>
-	document.addEventListener('DOMContentLoaded',function(){
-	document.getElementById('sendMessage').onclick=function(){
+<head2>
+	<script src="/jquery/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded',function(){
+		document.getElementById('sendMessage').onclick=function(){
 	}
 	      var userName=document.getElementById('name').value;
 	
 	)};
-	
-	$(document).ready(function() {
-	$("body").addClass("animated fadeOut");
-	)}
 </script>
+</head2>
 <style>
 	body{
 		background-color: #CCDDFF;
@@ -135,13 +145,7 @@
 		background-color: #B088FF;
 		border-radius: 5px;
 		padding: 5px 10px 8px 10px; 
-	}
-	
-	
-	
-	
-	
-	
+	}	
 </style>
 <body style="margin:0px;">
 	<div class="head">ܣ班的追星歷程ܣ</div>
@@ -210,6 +214,9 @@
         <button class="btn target" >偶喜翻上EXO了</button>
         <button class="btn target" >才不喜翻他們呢</button>
       </div>
-	
+	<p id="p1">如果点击“隐藏”按钮，我就会消失。</p>
+	<button id="hide" type="button">隐藏</button>
+	<button id="show" type="button">显示</button>
+
 </body>
 </html>
