@@ -29,6 +29,11 @@
 	
 	</script>
 	
+	<style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 100%; }
+    </style>
+	
 	<script>
 	  window.fbAsyncInit = function() {
 		FB.init({
@@ -197,6 +202,7 @@
 			statusChangeCallback(response);
 		});
 	}
+}
 </style>
 <body style="margin:0px;">
 	<div class="head">ܣ班的追星歷程ܣ</div>
@@ -284,8 +290,25 @@
 		<img src="DB.png" id="div5" style="display:none; margin:auto;" ></img>
 		<br>
 		<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.043170050297!2d121.43186561414544!3d25.032608983972935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7dd8be91eaf%3A0xe342a67d6574f896!2z5aSp5Li75pWZ6LyU5LuB5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1557931646908!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe-->
+		<div id="map"></div>
+    <script type="text/javascript">
+
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 25.055176, lng: 121.480001},
+        zoom: 18
+      });
+    }
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC63xKgCI7ilncok4T-HzWABO_Gmp-b8g8&callback=initMap">
+    </script>
+	
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.3&appId=400237914152553&autoLogAppEvents=1"></script>
 	<div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-auto-logout-link="false" data-use-continue-as="false"></div>
+				
 </body>
 </html>
