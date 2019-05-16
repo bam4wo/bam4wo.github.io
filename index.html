@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<metal charset = "utf-8"></meta>
+	<meta charset = "utf-8"></meta>
 	<title>WE ARE ONE</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript">
@@ -27,6 +27,28 @@
 	
 		)};
 	
+	</script>
+	
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  appId      : '400237914152553',
+		  cookie     : true,
+		  xfbml      : true,
+		  version    : 'v3.3'
+		});
+		  
+		FB.AppEvents.logPageView();   
+		  
+	  };
+
+	  (function(d, s, id){
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement(s); js.id = id;
+		 js.src = "https://connect.facebook.net/en_US/sdk.js";
+		 fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
 	</script>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
@@ -217,7 +239,8 @@
         <button class="btn target" id="target1">很讚哦</button>
         <button class="btn target" id="target2">偶喜翻上EXO了</button>
         <button class="btn target" id="target3">才不喜翻他們呢</button>
-      </div>
+    </div>
+	<br>
 	<!-- <p id="p1">不管怎樣，我會一直支持EXO的♥</p>
 	<button id="hide" type="button">隱藏</button>
 	<button id="show" type="button">顯示</button> -->
@@ -235,5 +258,6 @@
 		<br>
 		<img src="DB.png" id="div5" style="display:none; margin:auto;" ></img>
 		<br>
+		<!--iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.043170050297!2d121.43186561414544!3d25.032608983972935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7dd8be91eaf%3A0xe342a67d6574f896!2z5aSp5Li75pWZ6LyU5LuB5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1557931646908!5m2!1szh-TW!2stw" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe-->
 </body>
 </html>
